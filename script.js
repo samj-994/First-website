@@ -1,3 +1,1 @@
-function ClickHello() {
-    alert("Hello, World!");
-}
+console.log("Navigation ready.");

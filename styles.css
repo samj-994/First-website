@@ -1,31 +1,86 @@
-*{
-    font-family: 'sans-serif'
+* {
+  box-sizing: border-box;
 }
 
 body {
-    background-color: lightblue;
-    color: darkblue;
+  margin: 0;
+  font-family: 'Sanista';
+  background-color: #F0E7D8;
+  color: #A61C3C;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
+.site-header {
+  background-color: #F0E7D8;
+  text-align: center;
+  padding: 30px 20px;
+  border-bottom: 3px solid #FF729F;
 }
 
-.poem-lists {
-    display: flex;
-    gap: 10px;
-}
-.list-one, 
-.list-two {
-    border: solid palevioletred 4px;
-    padding: 10px;
+.site-header h1 {
+  margin: 0;
+  font-size: 4rem;
 }
 
-img{
-    width: 600px;
-    border: solid palevioletred 4px;
-    border-radius: 20px;
+.site-header h1 {
+    font-family: 'Sansita';
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.nav-button {
+  display: inline-block;
+  background-color: #ee8eac;
+  color: white;
+  border: 3px solid #f088a9;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
+.nav-button:hover {
+  background-color: #FF729F;
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.info-section {
+  margin-bottom: 15.5px;
+  margin-top: 12.5px;
+}
+
+.info-section p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 0;
+  font-family: 'Sanista', sans-serif;
+}
+
+.resize {
+    width: 225px;
+    height: auto;
+    border: solid 3px #FF729F;
+    border-radius: 20px
+}
+
+.p0 {
+  font-size: 20px;
+  line-height: 1.7;
+  margin: 0;
+  font-family: 'Sanista';
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
 }
