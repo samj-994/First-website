@@ -18,11 +18,18 @@ body {
 
 .site-header h1 {
   margin: 0;
-  font-size: 4rem;
+  font-size: 60px;
 }
 
 .site-header h1 {
     font-family: 'Sansita';
+}
+
+.site-header h2 {
+  margin: 10px 0 0;
+  font-size: 20px;
+  font-weight: normal;
+  color: #bb284a;
 }
 
 .button-row {
@@ -42,8 +49,31 @@ body {
   border-radius: 8px;
   font-size: 18px;
   font-weight: bold;
-  text-decoration: none;
   text-align: center;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.contact {
+    display: inline-block;
+    background-color: #f6f3ed;
+    color: #A61C3C;
+    border: 3px solid #A61C3C;
+    padding: 12px 22px;
+    border-radius: 8px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact:hover {
+    background-color: #FF729F;
 }
 
 .nav-button:hover {
