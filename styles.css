@@ -1,0 +1,31 @@
+*{
+    font-family: 'sans-serif'
+}
+
+body {
+    background-color: lightblue;
+    color: darkblue;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.poem-lists {
+    display: flex;
+    gap: 10px;
+}
+.list-one, 
+.list-two {
+    border: solid palevioletred 4px;
+    padding: 10px;
+}
+
+img{
+    width: 600px;
+    border: solid palevioletred 4px;
+    border-radius: 20px;
+}
