@@ -99,6 +99,20 @@ body {
 }
 
 .resize {
+    width: 245px;
+    height: auto;
+    border: solid 3px #FF729F;
+    border-radius: 20px
+}
+
+.resize-second {
+    width: 365px;
+    height: auto;
+    border: solid 3px #FF729F;
+    border-radius: 20px
+}
+
+.resize-third {
     width: 225px;
     height: auto;
     border: solid 3px #FF729F;
